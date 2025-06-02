@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Zadanie 76 - Gradienty</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            text-align: center;
+            font-weight: bold;
+            color: white;
+        }
+
+        td {
+            width: 50%;
+            height: 100px;
+            border: 2px solid black;
+        }
+
+        .gradient1 {
+            background: linear-gradient(white, red);
+        }
+
+        .gradient2 {
+            background: linear-gradient(to right, red, orange, yellow, lime, blue, purple, fuchsia);
+        }
+
+        .gradient3 {
+            background: radial-gradient(circle at 30px 30px, red 10px, blue 30px);
+        }
+
+        .gradient4 {
+            background: radial-gradient(ellipse 66% 33% at right top, red 75%, silver);
+        }
+
+        .header {
+            background: linear-gradient(to right top, black, white);
+            color: blue;
+            font-size: 24px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <table border="1">
+        <tr>
+            <td colspan="2" class="header">Aleksei Karako</td>
+        </tr>
+        <tr>
+            <td class="gradient1">style="background:linear-gradient(white, red);"</td>
+            <td class="gradient2">style="background:linear-gradient(to right, red, orange, yellow, lime, blue, purple, fuchsia);"</td>
+        </tr>
+        <tr>
+            <td class="gradient3">style="background:radial-gradient(circle at 30px 30px, red 10px, blue 30px);"</td>
+            <td class="gradient4">style="background:radial-gradient(ellipse 66% 33% at right top, red 75%, silver);"</td>
+        </tr>
+    </table>
+
+</body>
+</html>

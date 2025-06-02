@@ -1,0 +1,14 @@
+* {
+ font-size: 36pt;
+ background-color: yellow;   
+}
+
+p.klasa_nieuniwersalna_sliu {
+    font-size: 36pt;
+    color: purple;
+}
+
+.klasa_nieuniwersalna_sliu {
+    font-size: 27pt;
+    color: green;
+}
